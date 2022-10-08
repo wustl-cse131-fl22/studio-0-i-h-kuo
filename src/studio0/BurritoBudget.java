@@ -3,13 +3,13 @@ package studio0;
 public class BurritoBudget {
 
 		public static void main(String args[]) {
-		double burritosEatenWeek1 = 7;
-		double burritosEatenWeek2 = 4;
-		double burritosEatenWeek3 = 19; //don't judge me
-		double burritosEatenWeek4 = 1;
+		int burritosEatenWeek1 = 7;
+		int burritosEatenWeek2 = 4;
+		int burritosEatenWeek3 = 19; //don't judge me
+		int burritosEatenWeek4 = 1;
 		
-		double totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4;
-		double averageWeeklyBurritos = totalBurritos / 4;
+		int totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4;
+		double averageWeeklyBurritos = totalBurritos / 4.0;
 		
 		double burritoPrice = 7.50;
 		double averageWeeklyPrice = averageWeeklyBurritos * burritoPrice;
